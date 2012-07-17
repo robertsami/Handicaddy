@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout" android:orientation="vertical"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_alignParentLeft="true"
+		android:textSize="15dp" android:text="Find rounds between start date: " />
+	<DatePicker android:id="@+id/datePicker1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_alignParentLeft="true"
+		android:textSize="15dp" android:text="and end date: " />
+	<DatePicker android:id="@+id/datePicker2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..." />
+
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+		
+	<ViewGroup android:id="@+id/course_name_group"> 
+	<AutoCompleteTextView android:id="@+id/filter_course_name_1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_3"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_4"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_5"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_6"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_7"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_8"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_9"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	<TextView android:layout_width="wrap_content"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:text="At course:"></TextView>
+	<AutoCompleteTextView android:id="@+id/filter_course_name_10"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textCapWords" android:hint="Course name here..."
+		android:visibility="gone" />
+		
+	</ViewGroup>
+	
+
+		
+	<Button android:id="@+id/add_course" android:text="Add Course"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:layout_weight="1" />
+
+	<Button android:id="@+id/enter_search_args" android:text="Search"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:layout_weight="1" />
+
+
+</LinearLayout>

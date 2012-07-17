@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:fillViewport="true"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical">
+			
+			<TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Course Name"></TextView>
+                <AutoCompleteTextView android:id="@+id/course_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Course name here..."/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Tee Box:" />
+            
+            <RadioGroup android:id="@+id/tee_box_group_round_entry" android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox1" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox2" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox3" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox4" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox5" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox6" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="RadioButton" android:id="@+id/teebox7" android:visibility="gone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </RadioButton>
+            <RadioButton android:text="Add New Tee Box" android:id="@+id/add_new_tee_box" 
+                android:layout_width="wrap_content" android:layout_height="wrap_content"> 
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" android:includeFontPadding="true"
+                android:text="Course Rating"></TextView>
+			
+			<EditText android:layout_height="wrap_content" android:id="@+id/course_rating"
+				android:layout_width="match_parent" android:inputType="numberDecimal"
+				android:hint="Course rating here..."></EditText>
+			<TextView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:text="Slope Rating"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/slope_rating"
+				android:layout_width="match_parent" android:inputType="number"
+				android:hint="Slope Rating here..."></EditText>
+			<TextView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:text="Par"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/par"
+				android:layout_width="match_parent" android:inputType="number"
+				android:hint="Par for Course here..."></EditText>
+			<TextView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:text="Your Score"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/your_score"
+				android:layout_width="match_parent" android:inputType="number"
+				android:hint="What'd ya get?" android:imeOptions="actionDone"></EditText>
+			<TextView android:layout_width="wrap_content" android:id="@+id/select_date"
+				android:layout_height="wrap_content" android:text="Select Date"></TextView>
+
+			<DatePicker android:id="@+id/SelectDate"
+				android:layout_marginTop="10dp" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:gravity="center|center_horizontal|center_vertical">
+			</DatePicker>
+			<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:id="@+id/Enter_Round"
+					android:text="Enter Round"
+					android:layout_width="wrap_content" android:layout_height="100dp"
+					android:gravity="center" android:layout_weight="1"/>
+				<Button android:id="@+id/Cancel_round_input"
+					android:text="Cancel"
+					android:layout_width="wrap_content" android:layout_height="100dp"
+					android:gravity="center" android:layout_weight="1"/>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

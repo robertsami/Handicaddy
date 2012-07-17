@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:id="@+id/start_round"
+		android:layout_alignParentBottom="true"
+		android:text="Start Round"
+		android:layout_width="fill_parent" android:layout_height="100dp" android:gravity="center"/>
+	<GridView 
+		android:id="@+id/main_menu"
+		android:layout_above="@id/start_round"
+		android:layout_alignParentTop="true"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center"
+		
+		android:columnWidth="90dp"
+    	android:verticalSpacing="10dp"
+    	android:horizontalSpacing="30dp"
+    	android:stretchMode="columnWidth" 
+    	android:numColumns="auto_fit" />
+	
+	
+</RelativeLayout>

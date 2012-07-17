@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_your_score"
+        android:layout_width="wrap_content" android:layout_below="@id/round_view_date"
+        android:layout_alignParentLeft="true" android:textSize="15dp" android:text="Score: "/>
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_score"
+        android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_marginRight="10dip"
+        android:layout_alignBottom="@id/round_view_your_score"
+        android:layout_centerHorizontal="true" android:textSize="15dp"/>
+        
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_your_fairways_hit"
+        android:layout_width="wrap_content" android:layout_below="@id/round_view_your_score"
+        android:layout_alignParentLeft="true" android:textSize="15dp" android:text="Fairways Hit: "/>
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_fairways_hit"
+        android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_marginRight="10dip"
+        android:layout_alignBottom="@id/round_view_your_fairways_hit"
+        android:layout_centerHorizontal="true" android:textSize="15dp"/>
+        
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_your_greens_hit"
+        android:layout_width="wrap_content" android:layout_below="@id/round_view_your_fairways_hit"
+        android:layout_alignParentLeft="true" android:textSize="15dp" android:text="Greens Hit: "/>
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_greens_hit"
+        android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_marginRight="10dip"
+        android:layout_alignBottom="@id/round_view_your_greens_hit"
+        android:layout_centerHorizontal="true" android:textSize="15dp"/>
+        
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_your_putts"
+        android:layout_width="wrap_content" android:layout_below="@id/round_view_your_greens_hit"
+        android:layout_alignParentLeft="true" android:textSize="15dp" android:text="Putts: "/>
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_putts"
+        android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_marginRight="10dip"
+        android:layout_alignBottom="@id/round_view_your_putts"
+        android:layout_centerHorizontal="true" android:textSize="15dp"/>
+        
+    <TextView android:layout_width="wrap_content" android:textSize="15dp" android:text="Average Drive: " 
+       android:id="@+id/round_view_your_avg_drive" android:layout_height="wrap_content"
+       android:layout_below="@id/round_view_your_putts"/>
+    <TextView android:layout_height="wrap_content" android:id="@+id/round_view_avg_drive"
+        android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_marginRight="10dip"
+        android:layout_alignBottom="@id/round_view_your_avg_drive"
+        android:layout_centerHorizontal="true" android:textSize="15dp"/>
+    
+</LinearLayout>

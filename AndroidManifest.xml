@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.summer.handicaddy"
+      android:versionCode="1"
+      android:versionName="1.0"
+      android:installLocation="preferExternal">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Handicaddy"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EnterRound" />
+        <activity android:name=".RoundHistory" />
+        <activity android:name=".RoundView" />
+        <activity android:name=".Stats" />
+        <activity android:name=".FilterStats" />
+        <activity android:name="org.achartengine.GraphicalActivity" />
+
+    </application>
+</manifest>
